@@ -98,3 +98,9 @@ O CSS define dois pontos de adaptação principais: até 950 px e até 700 px.
 ## Convenção de nome e regras de Damas
 
 O site ensina a variante **Damas Brasileiras**, mas a interface deve apresentar o jogo somente como **Damas**. Use “Damas Brasileiras” apenas em documentação interna ou referências editoriais quando necessário para identificar a variante; não altere o nome dos menus, títulos ou cartões para essa forma longa.
+
+## Páginas de regras
+
+As páginas `site/xadrez/regras.html` e `site/damas/regras.html` usam o estilo compartilhado em `site/rules.css`. Mantêm a identidade existente com hero editorial, índice de tópicos aderente, lições numeradas, painéis suaves, diagramas e glossário. Preservar links de retorno e de troca entre jogos, âncoras com foco visível, adaptação para celular e nomes acessíveis dos diagramas. A página de Damas ensina a variante brasileira de 64 casas; o nome visível permanece “Damas”.
+
+Os diagramas de Damas devem usar 64 células HTML explícitas dentro de `.board-squares`; peças e casas de movimento são marcadas por classes, não por texto sobreposto ou faixas de fundo. Desativar pseudo-elementos antigos quando reconstruir esses componentes.

@@ -35,3 +35,7 @@ Guia de identidade visual e continuidade: GUIA_VISUAL.md. Consulte-o antes de at
 ## Decisão sobre Damas
 
 O conteúdo de regras, avaliação e treino seguirá a variante **Damas Brasileiras**. No texto e na navegação do site, o nome visível do jogo continuará sendo simplesmente **Damas**.
+
+## Conteúdo de regras
+
+A etapa de fundamentos inclui páginas de estudo para Xadrez e Damas, com navegação por tópicos, diagramas, exemplos e glossários. Damas segue a variante brasileira de 64 casas, mantendo “Damas” como nome exibido na interface. As páginas ficam em `site/xadrez/regras.html` e `site/damas/regras.html`; o estilo compartilhado está em `site/rules.css`. Os cartões da página inicial levam às respectivas páginas.
