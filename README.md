@@ -29,3 +29,9 @@ Este README deve acompanhar a evolução do projeto. Quando novas decisões, fun
 ## Protótipo web
 
 Foi criado um protótipo visual responsivo em site/index.html, com estilos em site/style.css e interações simples em site/script.js. A página apresenta uma visão geral da jornada, cartões de Xadrez e Damas, ponto de partida para avaliação de habilidades e área de progresso. Para visualizar, abra site/index.html em um navegador.
+
+Guia de identidade visual e continuidade: GUIA_VISUAL.md. Consulte-o antes de atualizar o estilo ou os componentes do site.
+
+## Decisão sobre Damas
+
+O conteúdo de regras, avaliação e treino seguirá a variante **Damas Brasileiras**. No texto e na navegação do site, o nome visível do jogo continuará sendo simplesmente **Damas**.
