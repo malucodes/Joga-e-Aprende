@@ -120,3 +120,11 @@ A área `site/treino/` usa cartões de prática, tags de nível, exercícios exp
 ## Cores específicas por jogo
 
 Conteúdo de Xadrez usa o acento verde existente. Conteúdo de Damas usa terracota (`#a96544`) com fundo pêssego suave (`#f4e7d8`), incluindo títulos de destaque, rótulos, notas, controles selecionados, progresso e botões de conclusão. Páginas gerais equilibram os acentos verde e terracota; não devem usar o verde como única cor de jogo. Ao alternar o jogo em Habilidades ou Treino, atualizar também o acento temático da página.
+
+## Acompanhamento de progresso
+
+A página `site/progresso/` apresenta cartões de indicadores, formulários em painéis claros e uma lista cronológica. Marcas terracota identificam registros de Damas e verde identifica Xadrez. Formulários devem manter rótulos explícitos, validação, estados vazios e mensagens acessíveis. Dados podem ser exportados/importados em JSON e apagados por ação explícita; informar sempre que o armazenamento é local ao navegador.
+
+### Galeria do progresso
+
+A entrada de Meu Progresso deve ser uma galeria de dois cards. Xadrez usa acento verde e Damas terracota. Cada card resume sessões, partidas e minutos do respectivo jogo; ao abrir, mostrar somente seus indicadores, formulários e histórico, com retorno visível à galeria. O resumo geral permanece neutro e pode incluir ambos os jogos.

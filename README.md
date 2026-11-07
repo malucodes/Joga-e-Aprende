@@ -47,3 +47,11 @@ A etapa 3 adiciona avaliações rápidas em `site/habilidades/` para Xadrez e Da
 ## Planos de treino
 
 A etapa 4 adiciona a página `site/treino/index.html`, com trilhas progressivas para Xadrez e Damas. Cada trilha contém cinco sessões com objetivos, passos, exercícios com respostas explicadas e conclusão marcável. As atividades concluídas e sugestões baseadas nas avaliações ficam no armazenamento local do navegador, sem sincronização entre dispositivos.
+
+## Acompanhamento de progresso
+
+A etapa 5 adiciona `site/progresso/index.html`, que registra sessões de estudo e partidas, mostra totais, tempo, dias consecutivos e resultados, e apresenta histórico com remoção individual. O usuário pode exportar e importar uma cópia JSON local. Registros, avaliações e treinos concluídos são mantidos no navegador e não sincronizam entre dispositivos.
+
+### Navegação do painel de progresso
+
+A área de progresso abre primeiro uma galeria com cards de Xadrez e Damas. Cada card abre seu painel individual, com registros e histórico filtrados para aquele jogo; “Todos os jogos” retorna à galeria. O histórico já salvo permanece compatível.
