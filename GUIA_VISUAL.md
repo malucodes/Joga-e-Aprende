@@ -108,3 +108,7 @@ Os diagramas de Damas devem usar 64 células HTML explícitas dentro de `.board-
 ## Autoavaliação
 
 A página `site/habilidades/index.html` reutiliza o hero e os componentes visuais do site, com seletor de jogo em cartões, perguntas em fieldsets acessíveis, resultados em painel e recomendações temáticas. A interface informa que o resultado é salvo localmente no navegador. Não apresentar essa avaliação como diagnóstico certificado ou sincronizado.
+
+## Navegação compartilhada
+
+Todas as páginas expõem os mesmos destinos na mesma ordem: Visão geral, Meus jogos, Habilidades, Regras de Xadrez, Regras de Damas e Meu progresso. O item da página atual recebe `.active`. Em celular, os itens permanecem disponíveis numa faixa horizontal rolável; não ocultar links de seção. Ao incluir uma nova aba, adicioná-la ao menu comum de todas as páginas, ajustar os caminhos relativos e definir o estado ativo correspondente.
