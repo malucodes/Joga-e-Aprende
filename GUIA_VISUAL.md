@@ -116,3 +116,7 @@ Todas as páginas expõem os mesmos destinos na mesma ordem: Visão geral, Meus 
 ## Planos de treino e novas abas
 
 A área `site/treino/` usa cartões de prática, tags de nível, exercícios expansíveis e uma barra de conclusão com a identidade existente. A conclusão é armazenada localmente e as sugestões podem usar os temas errados na autoavaliação. Para novas abas: criar a página na pasta correspondente, reutilizar a estrutura e estilos compartilhados, adicionar o destino ao mesmo menu lateral em todas as páginas, escolher um ícone e marcar a aba atual com `.active`. Em dispositivos móveis, preservar a faixa rolável de navegação.
+
+## Cores específicas por jogo
+
+Conteúdo de Xadrez usa o acento verde existente. Conteúdo de Damas usa terracota (`#a96544`) com fundo pêssego suave (`#f4e7d8`), incluindo títulos de destaque, rótulos, notas, controles selecionados, progresso e botões de conclusão. Páginas gerais equilibram os acentos verde e terracota; não devem usar o verde como única cor de jogo. Ao alternar o jogo em Habilidades ou Treino, atualizar também o acento temático da página.

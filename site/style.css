@@ -7,3 +7,7 @@
 @media(max-width:700px){.sidebar{position:sticky;top:0;width:100%;height:auto;min-height:unset;padding:8px 12px;background:#fbfaf6;display:grid;grid-template-columns:1fr;z-index:5}.sidebar .brand{font-size:15px}.sidebar .brand-icon{width:32px;height:32px}.sidebar .brand small,.sidebar .nav-label,.sidebar .side-bottom{display:none}.sidebar nav{display:flex;overflow-x:auto;gap:4px;margin:7px -2px 0;padding-bottom:2px;scrollbar-width:thin}.sidebar .nav-link{display:flex;flex:0 0 auto;min-height:34px;padding:7px 9px;font-size:10px;white-space:nowrap}.sidebar .nav-link span{font-size:14px;width:17px;margin-right:5px}.sidebar .nav-link:nth-child(n){display:flex}}
 
 @media(min-width:701px){.sidebar .nav-link{font-size:12px;padding:10px 9px}.sidebar .nav-link span{margin-right:7px}}
+/* Páginas gerais usam os dois acentos de jogo de forma equilibrada. */
+.games-section .section-heading h2{ text-decoration:underline; text-decoration-color:#d9c4ae; text-decoration-thickness:2px; text-underline-offset:6px }
+.skill-row:nth-of-type(1)>span{background:#eaf0df;color:#53684a}
+.skill-row:nth-of-type(2)>span{background:#f4e7d8;color:#a96544}

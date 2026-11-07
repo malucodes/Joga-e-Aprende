@@ -24,3 +24,14 @@
 .checkers-board{display:block;width:220px;height:auto;aspect-ratio:1;border:5px solid #e7e4d3;background:none!important}
 .mini-checker-board{display:block;width:150px;height:auto;aspect-ratio:1;flex:none;border:3px solid #e7e4d3;background:none!important}
 @media(max-width:700px){.checkers-board{width:min(100%,240px)}.mini-checker-board{width:150px}}
+
+/* Acentos temáticos: verde para Xadrez, terracota para Damas. */
+.checkers-rules{--game-accent:#a96544;--game-soft:#f4e7d8;--game-border:#e3c7ac}
+.checkers-rules .rules-hero h1 em{color:var(--game-accent)}
+.checkers-rules .hero-pills span{background:var(--game-soft);color:#805139}
+.checkers-rules .lesson-number,.checkers-rules .lesson .eyebrow{color:var(--game-accent)}
+.checkers-rules .note{background:#f4e7d8;border-left-color:#bd805d}
+.checkers-rules .note>span,.checkers-rules .back-link,.checkers-rules .toc a:hover,.checkers-rules .toc a:focus{color:var(--game-accent)}
+.checkers-rules .special-icon{background:var(--game-soft);color:var(--game-accent)}
+.checkers-rules .glossary dt{color:#805139}
+.checkers-rules a:focus-visible{outline-color:var(--game-accent)}

@@ -33,6 +33,8 @@ function renderResult(game, score, missed, savedAt) {
 }
 function renderQuiz(game) {
   currentGame = game;
+  document.body.classList.toggle('game-damas', game === 'damas');
+  document.body.classList.toggle('game-xadrez', game === 'xadrez');
   const saved = getSaved(game);
   if (saved) { renderResult(game, saved.score, saved.missed, saved.savedAt); return; }
   const data = assessments[game];
@@ -49,3 +51,4 @@ document.querySelectorAll('.game-choice').forEach(button=>button.addEventListene
 renderQuiz(currentGame);
 
 document.querySelectorAll('.game-choice').forEach(button => { if (new URLSearchParams(location.search).get('game') === button.dataset.game) button.click(); });
+
