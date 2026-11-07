@@ -43,3 +43,7 @@ A etapa de fundamentos inclui páginas de estudo para Xadrez e Damas, com navega
 ## Autoavaliação de habilidades
 
 A etapa 3 adiciona avaliações rápidas em `site/habilidades/` para Xadrez e Damas, com pontuação por conceitos, nível orientativo, recomendações temáticas e opção de refazer/apagar. A avaliação mais recente de cada jogo é salva apenas no `localStorage` do navegador, sem conta ou transmissão ao servidor.
+
+## Planos de treino
+
+A etapa 4 adiciona a página `site/treino/index.html`, com trilhas progressivas para Xadrez e Damas. Cada trilha contém cinco sessões com objetivos, passos, exercícios com respostas explicadas e conclusão marcável. As atividades concluídas e sugestões baseadas nas avaliações ficam no armazenamento local do navegador, sem sincronização entre dispositivos.

@@ -112,3 +112,7 @@ A página `site/habilidades/index.html` reutiliza o hero e os componentes visuai
 ## Navegação compartilhada
 
 Todas as páginas expõem os mesmos destinos na mesma ordem: Visão geral, Meus jogos, Habilidades, Regras de Xadrez, Regras de Damas e Meu progresso. O item da página atual recebe `.active`. Em celular, os itens permanecem disponíveis numa faixa horizontal rolável; não ocultar links de seção. Ao incluir uma nova aba, adicioná-la ao menu comum de todas as páginas, ajustar os caminhos relativos e definir o estado ativo correspondente.
+
+## Planos de treino e novas abas
+
+A área `site/treino/` usa cartões de prática, tags de nível, exercícios expansíveis e uma barra de conclusão com a identidade existente. A conclusão é armazenada localmente e as sugestões podem usar os temas errados na autoavaliação. Para novas abas: criar a página na pasta correspondente, reutilizar a estrutura e estilos compartilhados, adicionar o destino ao mesmo menu lateral em todas as páginas, escolher um ícone e marcar a aba atual com `.active`. Em dispositivos móveis, preservar a faixa rolável de navegação.
