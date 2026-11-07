@@ -39,3 +39,7 @@ O conteúdo de regras, avaliação e treino seguirá a variante **Damas Brasilei
 ## Conteúdo de regras
 
 A etapa de fundamentos inclui páginas de estudo para Xadrez e Damas, com navegação por tópicos, diagramas, exemplos e glossários. Damas segue a variante brasileira de 64 casas, mantendo “Damas” como nome exibido na interface. As páginas ficam em `site/xadrez/regras.html` e `site/damas/regras.html`; o estilo compartilhado está em `site/rules.css`. Os cartões da página inicial levam às respectivas páginas.
+
+## Autoavaliação de habilidades
+
+A etapa 3 adiciona avaliações rápidas em `site/habilidades/` para Xadrez e Damas, com pontuação por conceitos, nível orientativo, recomendações temáticas e opção de refazer/apagar. A avaliação mais recente de cada jogo é salva apenas no `localStorage` do navegador, sem conta ou transmissão ao servidor.

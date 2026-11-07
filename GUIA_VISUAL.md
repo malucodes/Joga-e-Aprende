@@ -104,3 +104,7 @@ O site ensina a variante **Damas Brasileiras**, mas a interface deve apresentar 
 As páginas `site/xadrez/regras.html` e `site/damas/regras.html` usam o estilo compartilhado em `site/rules.css`. Mantêm a identidade existente com hero editorial, índice de tópicos aderente, lições numeradas, painéis suaves, diagramas e glossário. Preservar links de retorno e de troca entre jogos, âncoras com foco visível, adaptação para celular e nomes acessíveis dos diagramas. A página de Damas ensina a variante brasileira de 64 casas; o nome visível permanece “Damas”.
 
 Os diagramas de Damas devem usar 64 células HTML explícitas dentro de `.board-squares`; peças e casas de movimento são marcadas por classes, não por texto sobreposto ou faixas de fundo. Desativar pseudo-elementos antigos quando reconstruir esses componentes.
+
+## Autoavaliação
+
+A página `site/habilidades/index.html` reutiliza o hero e os componentes visuais do site, com seletor de jogo em cartões, perguntas em fieldsets acessíveis, resultados em painel e recomendações temáticas. A interface informa que o resultado é salvo localmente no navegador. Não apresentar essa avaliação como diagnóstico certificado ou sincronizado.

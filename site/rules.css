@@ -21,3 +21,6 @@
 .mini-checker-board{display:block;background:none!important}
 .board-squares{position:relative}
 .square{min-width:0;min-height:0}
+.checkers-board{display:block;width:220px;height:auto;aspect-ratio:1;border:5px solid #e7e4d3;background:none!important}
+.mini-checker-board{display:block;width:150px;height:auto;aspect-ratio:1;flex:none;border:3px solid #e7e4d3;background:none!important}
+@media(max-width:700px){.checkers-board{width:min(100%,240px)}.mini-checker-board{width:150px}}
