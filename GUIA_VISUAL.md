@@ -103,7 +103,7 @@ O site ensina a variante **Damas Brasileiras**, mas a interface deve apresentar 
 
 As páginas `site/xadrez/regras.html` e `site/damas/regras.html` usam o estilo compartilhado em `site/rules.css`. Mantêm a identidade existente com hero editorial, índice de tópicos aderente, lições numeradas, painéis suaves, diagramas e glossário. Preservar links de retorno e de troca entre jogos, âncoras com foco visível, adaptação para celular e nomes acessíveis dos diagramas. A página de Damas ensina a variante brasileira de 64 casas; o nome visível permanece “Damas”.
 
-Os diagramas de Damas devem usar 64 células HTML explícitas dentro de `.board-squares`; peças e casas de movimento são marcadas por classes, não por texto sobreposto ou faixas de fundo. Desativar pseudo-elementos antigos quando reconstruir esses componentes.
+Os diagramas de Damas usam SVG com coordenadas explícitas para as casas, peças e destinos de movimento. Preserve orientação, quantidade e posicionamento corretos das peças ao editar esses diagramas.
 
 ## Autoavaliação
 
@@ -111,7 +111,7 @@ A página `site/habilidades/index.html` reutiliza o hero e os componentes visuai
 
 ## Navegação compartilhada
 
-Todas as páginas expõem os mesmos destinos na mesma ordem: Visão geral, Meus jogos, Habilidades, Regras de Xadrez, Regras de Damas e Meu progresso. O item da página atual recebe `.active`. Em celular, os itens permanecem disponíveis numa faixa horizontal rolável; não ocultar links de seção. Ao incluir uma nova aba, adicioná-la ao menu comum de todas as páginas, ajustar os caminhos relativos e definir o estado ativo correspondente.
+Todas as páginas expõem os mesmos sete destinos na mesma ordem: Visão geral, Meus jogos, Habilidades, Planos de treino, Regras de Xadrez, Regras de Damas e Meu progresso. O item da página atual recebe `.active`. Em celular, os itens permanecem disponíveis numa faixa horizontal rolável; não ocultar links de seção. Ao incluir uma nova aba, adicioná-la ao menu comum de todas as páginas, ajustar os caminhos relativos e definir o estado ativo correspondente.
 
 ## Planos de treino e novas abas
 
@@ -128,3 +128,10 @@ A página `site/progresso/` apresenta cartões de indicadores, formulários em p
 ### Galeria do progresso
 
 A entrada de Meu Progresso deve ser uma galeria de dois cards. Xadrez usa acento verde e Damas terracota. Cada card resume sessões, partidas e minutos do respectivo jogo; ao abrir, mostrar somente seus indicadores, formulários e histórico, com retorno visível à galeria. O resumo geral permanece neutro e pode incluir ambos os jogos.
+
+
+## Área de jogo
+
+`site/jogar/` contém tabuleiros interativos para Xadrez e Damas, com modos de duas pessoas no mesmo dispositivo, computador e revisão/importação. A marca usa Playfair Display para se distinguir dos textos DM Sans e metadados DM Mono. Xadrez recebe acento verde; Damas, terracota. Partidas concluídas devem manter a integração com a chave local de progresso e o tema selecionado deve poder orientar o plano de treino.
+
+O menu global agora inclui a aba Jogar, colocada logo após Visão geral em todas as páginas. Manter a ordem e o mesmo estado ativo nas próximas páginas.

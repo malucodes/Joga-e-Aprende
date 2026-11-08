@@ -11,3 +11,8 @@
 .games-section .section-heading h2{ text-decoration:underline; text-decoration-color:#d9c4ae; text-decoration-thickness:2px; text-underline-offset:6px }
 .skill-row:nth-of-type(1)>span{background:#eaf0df;color:#53684a}
 .skill-row:nth-of-type(2)>span{background:#f4e7d8;color:#a96544}
+.brand>span:last-child{font-family:var(--serif);font-weight:700;letter-spacing:-.6px}.brand .amp{font-family:var(--sans)}
+/* Títulos seguem a fonte sem serifa da marca antiga; o itálico serifado fica como acento. */
+h1,h2,h3{font-family:var(--sans)}h1 em,h2 em,h3 em{font-family:var(--serif);font-style:italic}
+/* Restaura a marca Joga & Aprende à tipografia sem serifa original. */
+.brand>span:last-child{font-family:var(--sans);font-weight:700;letter-spacing:-.8px}.brand .amp{font-family:var(--sans)}

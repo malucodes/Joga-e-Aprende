@@ -4,16 +4,13 @@ Este projeto reúne a estrutura inicial de um site para estudar e desenvolver ha
 
 ## Estrutura do site
 
-- `site/inicio/` — página inicial e visão geral.
-- `site/xadrez/regras/` — regras e fundamentos do Xadrez.
-- `site/xadrez/habilidades/` — avaliação e registro das habilidades no Xadrez.
-- `site/xadrez/treino/` — exercícios e práticas de Xadrez.
-- `site/damas/regras/` — regras e fundamentos de Damas.
-- `site/damas/habilidades/` — avaliação e registro das habilidades em Damas.
-- `site/damas/treino/` — exercícios e práticas de Damas.
-- `site/progresso/` — acompanhamento da evolução nos dois jogos.
-- `site/recursos/` — materiais de referência e apoio.
-- `site/sobre/` — informações sobre o projeto.
+- `site/index.html` — visão geral e acesso às áreas de estudo.
+- `site/jogar/` — partidas de Xadrez e Damas, jogo contra computador e revisão.
+- `site/xadrez/regras.html` e `site/damas/regras.html` — regras e fundamentos.
+- `site/habilidades/` — avaliação e registro das habilidades nos dois jogos.
+- `site/treino/` — trilhas de prática para Xadrez e Damas.
+- `site/progresso/` — acompanhamento das sessões, partidas e evolução.
+- `site/style.css`, `site/rules.css` e folhas de estilo das áreas — identidade visual e componentes compartilhados.
 
 ## Objetivos
 
@@ -55,3 +52,13 @@ A etapa 5 adiciona `site/progresso/index.html`, que registra sessões de estudo 
 ### Navegação do painel de progresso
 
 A área de progresso abre primeiro uma galeria com cards de Xadrez e Damas. Cada card abre seu painel individual, com registros e histórico filtrados para aquele jogo; “Todos os jogos” retorna à galeria. O histórico já salvo permanece compatível.
+
+## Auditoria do escopo
+
+As etapas de escopo, conteúdo de regras, autoavaliação, planos de treino e acompanhamento local foram implementadas. A revisão estática atual encontrou os sete links de navegação em cada página e nenhum destino local quebrado. Ainda falta a verificação visual/interativa final em navegador e enviar as alterações ao GitHub para a Vercel publicar a versão atual. Os dados permanecem locais ao navegador; não existe conta nem sincronização entre dispositivos.
+
+## Partidas no site
+
+A área `site/jogar/` oferece três modos: duas pessoas no mesmo dispositivo, partida contra computador e revisão/importação. Xadrez usa a versão 0.10.3 de `chess.js`, incluída localmente em `site/jogar/chess-engine.js`, para validar regras e PGN; isso evita que a abertura do tabuleiro dependa de um CDN. A licença BSD-2-Clause e os créditos do motor estão em `site/jogar/CHESS-LICENSE.txt`. A revisão também pode buscar partidas públicas do Chess.com PubAPI ou Lichess. Damas usa regras brasileiras de 64 casas e importa/exporta arquivos de partida JSON do próprio site. Partidas concluídas, empates combinados e desistências entram no mesmo histórico local usado por Meu Progresso; o tema de foco alimenta as sugestões dos planos. O modo computador é um oponente iniciante baseado em lances legais e capturas prioritárias, não um motor de nível competitivo.
+
+A área Jogar oferece três modos implementados: duas pessoas no mesmo dispositivo, contra um computador iniciante e revisão/importação. O modo de revisão conecta Chess.com/Lichess e PGN para Xadrez; para Damas, usa o formato JSON exportado pelo próprio site. Partidas feitas aqui registram resultado, jogo, duração, tema e lances no progresso local. Partidas entre dispositivos em tempo real ainda exigiriam serviço de sinalização/conexão e não fazem parte destes três modos atuais.

@@ -35,3 +35,4 @@
 .checkers-rules .special-icon{background:var(--game-soft);color:var(--game-accent)}
 .checkers-rules .glossary dt{color:#805139}
 .checkers-rules a:focus-visible{outline-color:var(--game-accent)}
+.rules-page h1,.rules-page h2,.rules-page h3{font-family:var(--sans)}.rules-page h1 em,.rules-page h2 em,.rules-page h3 em{font-family:var(--serif);font-style:italic}
