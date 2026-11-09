@@ -70,3 +70,7 @@ A área **Meus jogos** abre inicialmente uma galeria com cartões de Xadrez e Da
 ## Ajustes da sala de jogo
 
 Os títulos principais das páginas compartilham uma única escala tipográfica. Na galeria Meus jogos, cada cartão completo é um link para abrir o respectivo jogo. Dentro da sala, o título e a introdução da galeria desaparecem para dar lugar ao tabuleiro e ao painel lateral: modos na ordem “Contra o computador”, “Duas pessoas” e “Revisar partida”; indicação da vez; lista de lances; instruções; e uma seção identificada como “Ações da partida”.
+
+## Consistência dos cartões e da ilustração de Damas
+
+Os cartões de navegação e conteúdo adotam o mesmo hover sutil do painel Meu Progresso (elevação de 2 px e sombra leve). Na sala de jogo, o único retorno visível é “Início”. A ilustração de Damas na galeria reutiliza os mesmos discos e a mesma composição da Visão Geral.

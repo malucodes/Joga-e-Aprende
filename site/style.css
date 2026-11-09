@@ -46,3 +46,6 @@ body :where(small,time,button,.nav-link,.eyebrow,.crumb,.tag,.nav-label,.board-c
 :where(.move-list,.turn-indicator,.game-progress-desc,.quiz-count,.stat-card>span,.overview-stats article span,.plan-meter span){font-size:max(12px,.75em)!important}body :where(input,select,textarea,summary){font-size:max(14px,.875em)!important}
 footer{font-size:max(12px,.75em)!important}/* Título principal da Visão geral segue a mesma escala das demais páginas. */
 .welcome h1{font-size:clamp(34px,3.8vw,46px)}
+/* Movimento hover unificado para cartões do site, igual ao painel de progresso. */
+:where(.game-card,.game-choice-card,.progress-panel-card,.game-progress-card,.training-choice,.practice-card,.game-choice){transition:transform .16s ease,box-shadow .16s ease,border-color .16s ease}
+:where(.game-card,.game-choice-card,.progress-panel-card,.game-progress-card,.training-choice,.practice-card,.game-choice):hover{transform:translateY(-2px);box-shadow:0 8px 20px #19181512}
