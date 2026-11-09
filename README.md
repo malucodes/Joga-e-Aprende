@@ -84,3 +84,7 @@ A ação de conclusão no modal de treino usa preto sobre marfim e inverte para 
 ## Navegação das regras
 
 As páginas de Xadrez e Damas agora ficam agrupadas sob a seção expansível **Regras** do menu lateral. A seção abre automaticamente nas páginas de regras e mantém os mesmos destinos e hierarquia no desktop e em telas pequenas.
+
+## Desempenho dos tabuleiros
+
+A geração dos lances legais de Damas acontece uma única vez por atualização do tabuleiro, reduzindo o custo em posições com damas de longo alcance. O tamanho do tabuleiro também considera a altura da tela em dispositivos móveis para manter o tabuleiro inteiro visível.

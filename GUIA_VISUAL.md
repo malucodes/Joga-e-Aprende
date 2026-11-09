@@ -174,3 +174,7 @@ Apresente as práticas como cards resumidos em galeria, com título, duração, 
 ### Grupo de navegação Regras
 
 O menu global mantém uma única seção expansível “Regras”, com “Regras de Xadrez” e “Regras de Damas” como páginas filhas. Abra o grupo automaticamente quando a pessoa estiver em uma dessas páginas, destaque o destino atual e mantenha os controles acessíveis por teclado e toque. Repita a mesma estrutura e ordem em todas as páginas.
+
+### Tabuleiros adaptáveis
+
+Dimensione o tabuleiro pela largura e pela altura disponíveis, reservando espaço para a navegação e os controles da página. Em telas móveis, preserve a grade 8×8 e reduza o tabuleiro para que suas quatro bordas permaneçam visíveis sem rolagem vertical.

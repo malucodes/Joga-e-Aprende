@@ -19,4 +19,4 @@
 /* Os tabuleiros são limitados pela altura visível da janela. */
 .game-layout{grid-template-columns:minmax(0,1fr) minmax(220px,285px)}.board-shell{width:100%;max-width:min(620px,calc(100svh - 180px));margin:0 auto}.board-grid{width:100%}
 @media(max-width:900px){.game-layout{grid-template-columns:minmax(0,1fr)}.board-shell{max-width:min(560px,calc(100svh - 180px));margin:0 auto}}
-@media(max-width:700px){.board-shell{max-width:min(100%,calc(100svh - 180px))}}
+@media(max-width:700px){.board-shell{max-width:min(100%,calc(100svh - 260px))}}
