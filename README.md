@@ -88,3 +88,7 @@ As páginas de Xadrez e Damas agora ficam agrupadas sob a seção expansível **
 ## Desempenho dos tabuleiros
 
 A geração dos lances legais de Damas acontece uma única vez por atualização do tabuleiro, reduzindo o custo em posições com damas de longo alcance. O tamanho do tabuleiro também considera a altura da tela em dispositivos móveis para manter o tabuleiro inteiro visível.
+
+## Ajustes de movimentação dos tabuleiros
+
+O tabuleiro de Xadrez usa a orientação padrão, com a casa a8 escura. Em Damas, capturas múltiplas podem ser jogadas salto a salto: a vez permanece com a mesma pessoa até a sequência terminar, e o botão de desfazer restaura a posição anterior ao início da captura. A mensagem de peça sem lance distingue bloqueio pela Lei da Maioria.
