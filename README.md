@@ -27,7 +27,7 @@ Este README deve acompanhar a evolução do projeto. Quando novas decisões, fun
 
 Foi criado um protótipo visual responsivo em site/index.html, com estilos em site/style.css e interações simples em site/script.js. A página apresenta uma visão geral da jornada, cartões de Xadrez e Damas, ponto de partida para avaliação de habilidades e área de progresso. Para visualizar, abra site/index.html em um navegador.
 
-Guia de identidade visual e continuidade: GUIA_VISUAL.md. Consulte-o antes de atualizar o estilo ou os componentes do site.
+Guia de identidade visual e continuidade: GUIA_VISUAL.md. A direção vintage editorial está aplicada nas folhas de estilo: marfim e preto, textura sutil de papel, geometria inspirada no xadrez, títulos caligráficos e textos funcionais sem serifa. As páginas mantêm a estrutura e os comportamentos existentes.
 
 ## Decisão sobre Damas
 
@@ -55,7 +55,7 @@ A área de progresso abre primeiro uma galeria com cards de Xadrez e Damas. Cada
 
 ## Auditoria do escopo
 
-As etapas de escopo, conteúdo de regras, autoavaliação, planos de treino e acompanhamento local foram implementadas. A revisão estática atual encontrou os sete links de navegação em cada página e nenhum destino local quebrado. Ainda falta a verificação visual/interativa final em navegador e enviar as alterações ao GitHub para a Vercel publicar a versão atual. Os dados permanecem locais ao navegador; não existe conta nem sincronização entre dispositivos.
+As etapas de escopo, conteúdo de regras, autoavaliação, planos de treino, acompanhamento local e partidas no site foram implementadas. O commit `88ad4d7` foi enviado ao branch `main`; a publicação depende da conclusão do deploy configurado na Vercel. Os dados permanecem locais ao navegador; não existe conta nem sincronização entre dispositivos.
 
 ## Partidas no site
 
