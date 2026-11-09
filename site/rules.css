@@ -45,4 +45,5 @@
 .checkers-rules svg.checkers-board circle[stroke],.checkers-rules svg.mini-checker-board circle[stroke]{stroke:#514C44!important}.checkers-board,.mini-checker-board{background-color:#F3EBDD}
 .checkers-rules svg.mini-checker-board circle[fill="#d8ed91"]{fill:#FAF6ED!important}
 
-.back-link{display:inline-flex;align-items:center;text-decoration:none;white-space:nowrap}
+.back-link{display:inline-flex;align-items:center;text-decoration:none;white-space:nowrap}/* Escala única para títulos principais em todas as áreas. */
+.rules-page .rules-hero h1,.play-page .game-hero h1,.welcome h1{font-size:clamp(34px,3.8vw,46px)}

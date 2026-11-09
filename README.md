@@ -66,3 +66,7 @@ A área Jogar oferece três modos implementados: duas pessoas no mesmo dispositi
 ## Galeria de jogos
 
 A área **Meus jogos** abre inicialmente uma galeria com cartões de Xadrez e Damas. Cada cartão leva à sala do respectivo jogo, onde ficam os modos de duas pessoas, contra computador e revisão/importação. O link “Meus jogos” retorna à galeria, e links diretos com `?game=xadrez` ou `?game=damas` continuam disponíveis.
+
+## Ajustes da sala de jogo
+
+Os títulos principais das páginas compartilham uma única escala tipográfica. Na galeria Meus jogos, cada cartão completo é um link para abrir o respectivo jogo. Dentro da sala, o título e a introdução da galeria desaparecem para dar lugar ao tabuleiro e ao painel lateral: modos na ordem “Contra o computador”, “Duas pessoas” e “Revisar partida”; indicação da vez; lista de lances; instruções; e uma seção identificada como “Ações da partida”.

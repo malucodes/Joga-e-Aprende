@@ -162,3 +162,7 @@ A navegação global contém, na mesma ordem em todas as páginas: **Visão gera
 ### Galeria da área Meus jogos
 
 A entrada da área apresenta dois cartões editoriais, um para Xadrez e outro para Damas, em composição equilibrada com fundo creme, geometria e símbolos monocromáticos. O cartão é o caminho até a sala correspondente. Os controles de jogo e os três modos aparecem somente dentro da sala escolhida; mantenha um retorno visível à galeria. Preserve o vocabulário visual geral e evite introduzir novas cores ou estilos decorativos.
+
+### Hierarquia e navegação dos jogos
+
+Mantenha um tamanho compartilhado para os títulos principais de todas as páginas. Cartões que navegam para uma área devem funcionar como um único link por toda a superfície, com foco de teclado visível; não aninhe links dentro de links. Na sala de jogo, retire o texto introdutório e mantenha o tabuleiro à esquerda e os painéis à direita: “Partida atual” contém modos, vez e lances; “Como jogar” mantém as instruções; “Ações da partida” agrupa nova partida e comandos relacionados.
