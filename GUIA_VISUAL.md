@@ -158,3 +158,7 @@ A navegação global contém, na mesma ordem em todas as páginas: **Visão gera
 - Página inicial e identidade compartilhada: `site/index.html` e `site/style.css`.
 - Regras e diagramas: `site/xadrez/regras.html`, `site/damas/regras.html` e `site/rules.css`.
 - Jogos: `site/jogar/index.html`, `site/jogar/games.js` e `site/jogar/games.css`.
+
+### Galeria da área Meus jogos
+
+A entrada da área apresenta dois cartões editoriais, um para Xadrez e outro para Damas, em composição equilibrada com fundo creme, geometria e símbolos monocromáticos. O cartão é o caminho até a sala correspondente. Os controles de jogo e os três modos aparecem somente dentro da sala escolhida; mantenha um retorno visível à galeria. Preserve o vocabulário visual geral e evite introduzir novas cores ou estilos decorativos.
