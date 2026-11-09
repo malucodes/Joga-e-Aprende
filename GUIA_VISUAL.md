@@ -170,3 +170,7 @@ Mantenha um tamanho compartilhado para os títulos principais de todas as págin
 ### Cards de treino e modal
 
 Apresente as práticas como cards resumidos em galeria, com título, duração, objetivo breve e estado sugerido/concluído. Cada card inteiro abre um modal. O modal reúne a prática completa, exercício e resposta, conclusão e um link acessível para a Visão geral; deve permitir fechamento por botão, tecla Esc e clique no fundo. Preserve foco visível, contraste e adaptação para telas estreitas.
+
+### Grupo de navegação Regras
+
+O menu global mantém uma única seção expansível “Regras”, com “Regras de Xadrez” e “Regras de Damas” como páginas filhas. Abra o grupo automaticamente quando a pessoa estiver em uma dessas páginas, destaque o destino atual e mantenha os controles acessíveis por teclado e toque. Repita a mesma estrutura e ordem em todas as páginas.

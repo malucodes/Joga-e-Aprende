@@ -80,3 +80,7 @@ Os cartões de navegação e conteúdo adotam o mesmo hover sutil do painel Meu 
 A aba Planos de treino apresenta as práticas de cada jogo em uma galeria de cards. Cada card abre um modal com objetivo, passos, exercício, resposta explicada e recomendação de aprofundamento. A conclusão pode ser marcada dentro do modal e continua salva localmente; há retorno visível à Visão geral e fechamento por botão, fundo ou tecla Esc.
 
 A ação de conclusão no modal de treino usa preto sobre marfim e inverte para marfim sobre preto ao passar o cursor. O link para a Visão geral foi retirado do modal, que mantém seu botão de fechar.
+
+## Navegação das regras
+
+As páginas de Xadrez e Damas agora ficam agrupadas sob a seção expansível **Regras** do menu lateral. A seção abre automaticamente nas páginas de regras e mantém os mesmos destinos e hierarquia no desktop e em telas pequenas.
