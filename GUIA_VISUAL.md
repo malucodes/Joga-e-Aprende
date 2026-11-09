@@ -166,3 +166,7 @@ A entrada da área apresenta dois cartões editoriais, um para Xadrez e outro pa
 ### Hierarquia e navegação dos jogos
 
 Mantenha um tamanho compartilhado para os títulos principais de todas as páginas. Cartões que navegam para uma área devem funcionar como um único link por toda a superfície, com foco de teclado visível; não aninhe links dentro de links. Na sala de jogo, retire o texto introdutório e mantenha o tabuleiro à esquerda e os painéis à direita: “Partida atual” contém modos, vez e lances; “Como jogar” mantém as instruções; “Ações da partida” agrupa nova partida e comandos relacionados.
+
+### Cards de treino e modal
+
+Apresente as práticas como cards resumidos em galeria, com título, duração, objetivo breve e estado sugerido/concluído. Cada card inteiro abre um modal. O modal reúne a prática completa, exercício e resposta, conclusão e um link acessível para a Visão geral; deve permitir fechamento por botão, tecla Esc e clique no fundo. Preserve foco visível, contraste e adaptação para telas estreitas.

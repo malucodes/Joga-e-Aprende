@@ -74,3 +74,7 @@ Os títulos principais das páginas compartilham uma única escala tipográfica.
 ## Consistência dos cartões e da ilustração de Damas
 
 Os cartões de navegação e conteúdo adotam o mesmo hover sutil do painel Meu Progresso (elevação de 2 px e sombra leve). Na sala de jogo, o único retorno visível é “Início”. A ilustração de Damas na galeria reutiliza os mesmos discos e a mesma composição da Visão Geral.
+
+## Galeria dos planos de treino
+
+A aba Planos de treino apresenta as práticas de cada jogo em uma galeria de cards. Cada card abre um modal com objetivo, passos, exercício, resposta explicada e recomendação de aprofundamento. A conclusão pode ser marcada dentro do modal e continua salva localmente; há retorno visível à Visão geral e fechamento por botão, fundo ou tecla Esc.
