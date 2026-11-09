@@ -44,3 +44,8 @@
 .checkers-rules svg.checkers-board circle[fill="#f8f5ea"],.checkers-rules svg.mini-checker-board circle[fill="#f8f5ea"]{fill:#FAF6ED!important}
 .checkers-rules svg.checkers-board circle[stroke],.checkers-rules svg.mini-checker-board circle[stroke]{stroke:#514C44!important}.checkers-board,.mini-checker-board{background-color:#F3EBDD}
 .checkers-rules svg.mini-checker-board circle[fill="#d8ed91"]{fill:#FAF6ED!important}
+
+/* Ação de retorno à página inicial, visível e confortável para toque e teclado. */
+.back-link{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:9px 13px;border:1px solid var(--ink);border-radius:3px;background:var(--surface);color:var(--ink);font-size:12px;font-weight:600;text-decoration:none;white-space:nowrap}
+.back-link:hover{background:var(--ink);color:var(--paper)}
+.back-link:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
